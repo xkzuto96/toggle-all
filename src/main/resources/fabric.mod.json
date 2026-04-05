@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "toggle-all",
+	"version": "${version}",
+	"name": "Toggle All",
+	"description": "Toggle All is a lightweight Fabric client utility mod for 1.21.11 with independent render-control keybinds. It lets you quickly toggle hide chat, hide scoreboard, hide particles, full brightness, and background render suppression from in-game Controls.",
+	"authors": [
+		"xkzuto"
+	],
+	"contact": {
+		"homepage": "https://github.com/xkzuto",
+		"sources": "https://github.com/xkzuto/toggle-all"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/toggle-all/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xkzuto.toggleall.ToggleAll"
+		],
+		"client": [
+			"xkzuto.toggleall.client.ToggleAllClient"
+		]
+	},
+	"mixins": [
+		"toggle-all.mixins.json",
+		{
+			"config": "toggle-all.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.6",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

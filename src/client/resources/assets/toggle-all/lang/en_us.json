@@ -1,0 +1,10 @@
+{
+  "key.category.toggle-all.controls": "Toggle All",
+  "category.toggle_all.controls": "Toggle All",
+  "key.categories.toggle-all.controls": "Toggle All",
+  "key.toggle_all.hide_chat": "Hide Chat Toggle",
+  "key.toggle_all.hide_scoreboard": "Hide Scoreboard Toggle",
+  "key.toggle_all.hide_particles": "Hide Particles Toggle",
+  "key.toggle_all.full_brightness": "Full Brightness Toggle",
+  "key.toggle_all.background_suppression": "Background Suppression Toggle"
+}
