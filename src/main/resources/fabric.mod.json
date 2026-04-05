@@ -3,7 +3,7 @@
 	"id": "toggle-all",
 	"version": "${version}",
 	"name": "Toggle All",
-	"description": "Toggle All is a lightweight Fabric client utility mod for 1.21.11 with independent render-control keybinds. It lets you quickly toggle hide chat, hide scoreboard, hide particles, full brightness, and background render suppression from in-game Controls.",
+	"description": "Toggle All is a lightweight Fabric client utility mod with independent render-control keybinds. It lets you quickly toggle hide chat, hide scoreboard, hide particles, full brightness, and background render suppression from in-game Controls.",
 	"authors": [
 		"xkzuto"
 	],
